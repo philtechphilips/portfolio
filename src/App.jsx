@@ -9,7 +9,9 @@ const App = () => {
   const [load, setLoad] = useState(true);
 
   useEffect(() => {
-    setLoad(false);
+    setTimeout(() => {
+      setLoad(false);
+    }, 2000)
   }, []);
 
   return (
