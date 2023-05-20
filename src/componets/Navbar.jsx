@@ -61,7 +61,6 @@ const Navbar = () => {
               </div>
 
               <div className="nav-icon">
-                <i className="ri-moon-line"></i>
                 <i
                   className="ri-menu-2-line"
                   onClick={() => setOpen(!isOpen)}

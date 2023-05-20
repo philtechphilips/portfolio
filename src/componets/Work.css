@@ -13,7 +13,7 @@
 }
 
 .work-body{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: #424242;
     margin-top: 7px;
@@ -25,7 +25,6 @@
     padding: 15px;
     cursor: pointer;
     margin-top: 20px;
-    height: 500px;
     overflow: hidden;
     margin-bottom: 40px;
 }
@@ -37,7 +36,7 @@
 
 .project-heading{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #111111;
 }
 

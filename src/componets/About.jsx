@@ -1,41 +1,39 @@
-import image from "../assets/image.jpeg";
+import Contact from "./Contact";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
 
 const About = () => {
   return (
     <>
-      <div className="hero-container">
-        <div className="left">
-          <p className="btn">About</p>
-          <p className="motto">My Profile.</p>
-          <p className="hero-body">Welcome to my profile page!</p>
-          <a href="mailto:pelumiisola87@gmail.com" className="hero-button">
-            Contact Me
-          </a>
+      <Navbar />
 
-          <a
-            href="https://drive.google.com/file/d/17Vcqz6UdtPdC-MqxNXmAg5oxsG72Q-Hg/view?usp=sharing"
-            className="hero-button"
-            style={{
-              marginLeft: "10px",
-              backgroundColor: "#f2f2f2",
-              color: "#111111",
-            }}
-          >
-            Read Resume
-          </a>
-        </div>
+      <Hero
+        heading="My Profile."
+        body="Welcome to my profile page!"
+        info="About"
 
-        <div>
-          <img className="my-image" src={image} />
-        </div>
-      </div>
+      />
 
-      <div className="container" style={{ marginBottom: "60px", flexDirection: 'column', alignItems: 'flex-start', fontWeight: '500', lineHeight: '30px' }}>
-        <p style={{ fontSize: '18px' }}>
+      <div
+        className="container"
+        
+        style={{
+          marginBottom: "60px",
+          flexDirection: "column",
+          alignItems: "flex-start",
+          fontWeight: "500",
+          lineHeight: "30px",
+        }}
+      >
+        <p data-aos="fade-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" style={{ fontSize: "18px" }}>
           I am a full-stack web developer currently based in Nigeria, ready to
           offer my services to clients all around the world.
         </p>
-        <p style={{ marginTop: '20px' }}>
+        <p data-aos="fade-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" style={{ marginTop: "20px" }}>
           I am a full stack developer with a proven track record of delivering
           high-quality web applications. I have extensive experience working on
           real-world projects, utilizing a range of skills and technologies
@@ -51,10 +49,12 @@ const About = () => {
           website redesign, I have the skills and expertise to help bring your
           vision to life. I am based in Nigeria, but I have worked with clients
           from around the world. I am always eager to take on new challenges and
-          opportunities, so if you&apos;re looking for a talented and experienced
-          full stack developer, please don&apos;t hesitate to get in touch!
+          opportunities, so if you&apos;re looking for a talented and
+          experienced full stack developer, please don&apos;t hesitate to get in
+          touch!
         </p>
       </div>
+      <Contact />
     </>
   );
 };

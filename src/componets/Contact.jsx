@@ -23,6 +23,7 @@ const Contact = () => {
             <Link to='/' style={{ color: '#111111' }} className="footer-logo">Isola Pelumi</Link>
             <div className="footer-social">
                 <a href="https://twitter.com/philipsdcoda"><i className="ri-twitter-fill"></i></a>
+                <a href="https://github.com/philtechphilips"><i className="ri-github-fill"></i></a>
                 <a href="https://www.linkedin.com/in/isola-pelumi-84661821a/"><i className="ri-linkedin-box-fill"></i></a>
             </div>
         </div>
